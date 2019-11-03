@@ -4,8 +4,16 @@ public struct MainView: View {
     public var body: some View {
         VStack {
             VStack {
-                Image(imageData: hello)
-                    .padding(12)
+                HStack {
+                    Image(imageData: hello)
+                        .padding(12)
+                    Image(imageData: hello)
+                        .padding(12)
+                    Image(imageData: hello)
+                        .padding(12)
+                    Image(imageData: hello)
+                        .padding(12)
+                }
                 Divider()
                 Text("from")
                     .foregroundColor(Color.yellow)
@@ -25,6 +33,8 @@ public struct MainView: View {
             }.padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
             Divider()
             HStack {
+                Circle()
+                Divider()
                 Circle()
                 Divider()
                 VStack {
