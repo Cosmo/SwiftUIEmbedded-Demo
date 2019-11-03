@@ -20,6 +20,9 @@ let height = 720
 swift run
 ```
 
+It should look like this:
+
+[![Demo](https://img.youtube.com/vi/bE1bqOhXcY4/0.jpg)](https://www.youtube.com/watch?v=bE1bqOhXcY4)
 
 ## Contact
 
