@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/Cosmo/OpenSwiftUI.git",
         "state": {
           "branch": "master",
-          "revision": "78aa4044537fa889b04fc9692380de412d1f5cb2",
+          "revision": "d6c95f8d5138b2d49324fc1024a9e7115df4736f",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/Cosmo/Pixels.git",
         "state": {
           "branch": "master",
-          "revision": "c8f013c3276bc1273ce53b7af52cfe436f053e72",
+          "revision": "f114458eaf965ffda34af5afb42ec8da6b9352b8",
           "version": null
         }
       },
@@ -33,7 +33,7 @@
         "repositoryURL": "https://github.com/Cosmo/SwiftUIEmbedded.git",
         "state": {
           "branch": "master",
-          "revision": "0197afb6de752ab6747a1bdbe2f99e662d0b590c",
+          "revision": "5111fa501b093749002a443aeb18172ad74d6860",
           "version": null
         }
       }
