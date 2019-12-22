@@ -1,17 +1,18 @@
 import OpenSwiftUI
+import SwiftUIEmbedded
 
 public struct MainView: View {
     public var body: some View {
         VStack {
             VStack {
                 HStack {
-                    Image(imageData: hello)
+                    Image(bitmap: hello)
                         .padding(12)
-                    Image(imageData: hello)
+                    Image(bitmap: hello)
                         .padding(12)
-                    Image(imageData: hello)
+                    Image(bitmap: hello)
                         .padding(12)
-                    Image(imageData: hello)
+                    Image(bitmap: hello)
                         .padding(12)
                 }
                 Divider()
@@ -20,7 +21,7 @@ public struct MainView: View {
                     .font(Font.system(size: 32))
                     .padding()
                 Divider()
-                Image(imageData: swiftLogo)
+                Image(bitmap: swiftLogo)
                     .padding(12)
             }
             VStack {
@@ -47,6 +48,6 @@ public struct MainView: View {
         }
     }
     
-    var hello = ImageData(bytes: Images.hello, size: Size(width: 104, height: 44))
-    var swiftLogo = ImageData(bytes: Images.bird32x32, size: Size(width: 32, height: 32))
+    var hello = Bitmap(bytes: Images.hello, size: Size(width: 104, height: 44))
+    var swiftLogo = Bitmap(bytes: Images.bird32x32, size: Size(width: 32, height: 32))
 }
